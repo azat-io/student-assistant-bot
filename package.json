@@ -1,0 +1,25 @@
+{
+  "name": "student-assistant-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot, which is ready to help the student",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "homepage": "https://github.com/azat-io/student-assistant-bot",
+  "author": {
+    "name": "Azat S.",
+    "email": "to@azat.io",
+    "url": "http://azat.io"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.17.0"
+  }
+}
