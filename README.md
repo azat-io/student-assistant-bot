@@ -4,4 +4,14 @@
 
 Hello!
 
-My name is Student Assistant. I am very energetic Telegram bot, which is always ready to help any student.
+My name is Student Assistant. I am very energetic Telegram bot, which can help you to create your bot with cribs.
+
+## Usage
+
+## Contributing
+
+Pull requests are welcome.
+
+## License
+
+MIT © [Azat S.](http://azat.io)
