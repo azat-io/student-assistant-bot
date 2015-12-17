@@ -17,10 +17,13 @@ bot.on('message', function (msg) {
   if (messageText == '/start') {
     bot.sendMessage(chatId, 'Hello!\n\nI\'m a Student Assistant Bot. And I want to help you in creating your own bot that will help you pass the exam. Before we begin, please choose your language.', lang);
   }
-  if (msg.text == '🇺🇸' || msg.text.toLowerCase() == 'en' || msg.text.toLowerCase() == 'eng' || msg.text.toLowerCase() == 'english') {
+  else if (msg.text == '🇺🇸' || msg.text.toLowerCase() == 'en' || msg.text.toLowerCase() == 'eng' || msg.text.toLowerCase() == 'english') {
     bot.sendMessage(chatId, 'English');
   }
-  if (msg.text == '🇷🇺' || msg.text.toLowerCase() == 'ru' || msg.text.toLowerCase() == 'rus' || msg.text.toLowerCase() == 'russian' || msg.text.toLowerCase() == 'русский') {
+  else if (msg.text == '🇷🇺' || msg.text.toLowerCase() == 'ru' || msg.text.toLowerCase() == 'rus' || msg.text.toLowerCase() == 'russian' || msg.text.toLowerCase() == 'русский') {
     bot.sendMessage(chatId, 'Russian');
+  }
+  else {
+    bot.sendMessage(chatId, 'You must choose your language!', lang);
   }
 });
